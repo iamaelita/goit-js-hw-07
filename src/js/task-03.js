@@ -35,4 +35,4 @@ const makeGalleryMarkup = ({ url, alt }) => {
 
 const galleryMarkup = images.map(makeGalleryMarkup).join('');
 
-galleryEl.insertAdjacentHTML('afterbegin', galleryMarkup);
+galleryRef.insertAdjacentHTML('afterbegin', galleryMarkup);
