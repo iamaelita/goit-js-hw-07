@@ -1,7 +1,3 @@
-body {
-  font-family: Nunito, sans-serif;
-}
-
 a {
   text-decoration: none;
 }
@@ -20,15 +16,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.task {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-
-  color: #9c9c9c;
 }
 
 .gallery__list {
