@@ -9,7 +9,7 @@ const inputRef = document.querySelector('#name-input');
 const textRef = document.querySelector('#name-output');
 
 function onInputTyping(event) {
-  textEl.textContent = event.currentTarget.value;
+  textRef.textContent = event.currentTarget.value;
 
   if (!textRef.textContent) {
     textRef.textContent = 'незнакомец';
